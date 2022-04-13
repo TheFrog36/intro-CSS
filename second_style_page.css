@@ -1,0 +1,29 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.border_div{
+    background-color: rgb(255, 216, 116);
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+    /* border-style: double;
+    border-color: red;
+    border-width: 5px; */
+    border: 5px double red;
+    border-radius: 10px 100px 100px 100px;
+}
+
+.background_div{
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+    background-image: url(./assets/images/frog_pattern.jpg);
+    background-image: url(./assets/images/powerful_frog.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    background-position: 0px -10px;
+}

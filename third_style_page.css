@@ -1,0 +1,71 @@
+.lorem_div{
+    width: 400px;
+}
+
+.div_1{
+    background-color: cyan;
+    width: 500px;
+}
+
+.div_2{
+    background-color: rgb(11, 188, 188);
+    display: inline-block;
+    width: 300px;
+}
+
+.div_3{
+    background-color: rgb(77, 77, 255);
+    display: inline-block;
+    margin-left: -4px;
+    /* negative margin to remove a whitespace between div 2 and div 3 */
+}
+
+.div_4{
+    background-color: yellow;
+    position: fixed;
+    top: 30px;
+    left: 20px;
+}
+
+.div_5{
+    background-color: red;
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+
+.div_6{
+    background-color: orange;
+}
+
+.div_7{
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    right: 50px;
+    bottom: 95%;
+}
+
+
+.div_8{
+    background-color: darkgreen;
+    height: 800px;
+}
+
+.div_9{
+    background-color: rgb(255, 255, 101);
+    height: 200px;
+    width: 400px;
+    position: relative;
+}
+/* div 9 è relativo per poter rendere il div 10 assoluto e potermi 
+più libertà */
+.div_10{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: max-content;
+}
