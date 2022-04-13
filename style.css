@@ -55,6 +55,30 @@ h1{
 
 .small_container_title{
     height: 66%;
-    width: 66%;
+    width: 50vw;
+    /* vw e vh non tiene conto della scroll bar, quindi le misure risultano
+    lievemente diverse da % */
     background-color: rgb(252, 255, 94);
+}
+
+.min_max_div_test{
+    width: 50%;
+    background-color: red;
+
+}
+
+.titolo_lungo{
+    width: 50%;
+    background-color: green;
+    min-width: 170px;
+    max-height: 100px;
+    /* overflow: hidden;*/
+    /* overflow: scroll;classiche bar di scorrimento */
+    overflow: auto;
+}
+
+.padding_margin_div{
+    margin-bottom: 400px;
+    padding: 20px;
+    background-color: black;
 }
