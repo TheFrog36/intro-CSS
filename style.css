@@ -1,0 +1,60 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: gray ;
+    background-color: khaki;
+}
+
+.lorem_ipsum{
+    background-color: whitesmoke;
+    color: black;
+    font-family: monospace;
+}
+
+.big_lorem_ipsum{
+    font-size: 20px;
+}
+
+#special_lorem_ipsum{
+    font-size: 15px;
+    color: red;
+    background-color: black;
+}
+
+.div_contenitore h1{
+    color: crimson;
+    background-color: cadetblue;
+}
+
+.big_lorem_ipsum, .lorem_ipsum , h1{
+    border-style: solid;
+}
+
+.contenitore_con_border{
+    color: black;
+    background-color: darkkhaki;
+    /* width: 500px;
+    height: 80; */
+    width: 20%;
+    height: 30%;
+}
+
+.container_title{
+    background-color: darkred;
+}
+
+.small_container{
+    width: 150px;
+    height: 150px;
+    background-color: darkgrey;
+}
+
+.small_container_title{
+    height: 66%;
+    width: 66%;
+    background-color: rgb(252, 255, 94);
+}
